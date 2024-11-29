@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <title>Devine le nombre</title>
+    <link rel="stylesheet" href="extras/Devine le nombre.css">
+    <link rel="icon" href="content/icon.png" type="image/x-icon">
+</head>
+<body background="content/background.jpg">
+    <div class="container">
+        <div class="content">
+            <button class="trigger-text button">Afficher les règles</button>
+            
+            <h1 class="name">Devine le nombre</h1>
+            <div class="hidden-text" id="hiddenText">
+                <p class="regles">Règles : L'ordinateur a génèré un nombre aléatoire entre 1 et 100, vous avez 10 essais pour le retrouver. Allez-vous y arriver ?</p>
+                
+            </div>
+            <p class="essais"></p>
+            <div class="form">
+                <label for="champ">Entrez un nombre : </label>
+                <input type="number" min="1" max="100" class="champ">
+                <input type="submit" value="Valider" class="valider">
+            </div>
+
+            <div class="resultat">
+                <p class="choix"></p>
+                <p class="indice"></p>
+                <p class="dernierResultat"></p>
+            </div>
+        </div>
+    </div>
+    <script src="extras/Devine le nombre.js"></script>
+</body>
+</html>

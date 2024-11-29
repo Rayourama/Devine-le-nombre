@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-size: cover;
+}
+
+.essais{
+    font-size: 30px;
+}
+
+.name{
+    text-align: center;
+    font-size: 80px;
+    color: #111;
+    text-align: center;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.valider{
+    margin-left: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.valider:hover {
+    background-color: #ff6347;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.reset{
+    margin-left: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.reset:hover {
+    background-color: #ff6347;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #ff6347;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button_decale{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button_decale:hover {
+    background-color: #ff6347;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.regles{
+    font-size: 30px;
+    margin-bottom: 60px;
+    letter-spacing: 0.5px;
+    margin-bottom: 1em;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 50px;
+}
+
+.resultat{
+    padding-left: 100px;
+    max-width: 400px;
+}
+
+.form input[type="number"]{
+    width: 100px;
+}
+
+.dernierChoix{
+    color: white;
+    padding: 5px;
+}
+
+.indice{
+    font-weight: bold;
+}
+
+.hidden-text {
+    display: none;
+    margin-top: 10px;
+}
